@@ -41,6 +41,28 @@ function App() {
             <IntroPic />
           </div>
         </div>
+
+        <p className="section-header" id="about">about -</p>
+        <div className="row-content">
+          <div className="intro-paragraph">
+            <p>Hey! I’m Emily and I’m currently in my 3rd year of Computer Engineering at UBC.
+            I’m passionate about projects that promote <mark className="highlight">wellness,
+            accessibility, and sustainability,</mark> as these topics are so important in shaping our future.
+            Currently, most of my experience is in <mark className="highlight">front-end development with a
+            touch of full-stack.</mark> When I’m not on my laptop coding, you’ll
+            likely find me with a cup of matcha scouting out new food places to try:)</p>
+          </div>
+          <div className="comment-box">
+            <p className="comment-item">/*</p>
+            <p className="comment-item">&nbsp;* <span className="comment-label">Author:</span> Emily Lukas</p>
+            <p className="comment-item">&nbsp;* <span className="comment-label">Interests:</span> software dev, tech in medicine</p>
+            <p className="comment-item">&nbsp;* <span className="comment-label">Hobbies:</span>  food, friends, and tea</p>
+            <p className="comment-item">&nbsp;* <span className="comment-label">Favorite Figma Plugin:</span> Blobs</p>
+            <p className="comment-item">&nbsp;*/</p>
+          </div>
+        </div>
+
+        <p className="section-header">education -</p>
       </div>
     </div>
   );
