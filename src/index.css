@@ -1,7 +1,38 @@
+@font-face {
+  font-family: "Recoleta-SemiBold";
+  src: local("Recoleta-SemiBold"),
+    url("./fonts/Recoleta-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Recoleta-Thin";
+  src: local("Recoleta-Thin"),
+    url("./fonts/Recoleta-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Sofia-Pro-Bold";
+  src: local("Sofia-Pro-Bold"),
+    url("./fonts/Sofia-Pro-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Karla";
+  src: local("Karla-VariableFont_wght"),
+    url("./fonts/Karla-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Karla-Bold";
+  src: local("Karla-Bold"),
+    url("./fonts/Karla-Bold.ttf") format("truetype");
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    "Recoleta-SemiBold", "Recoleta-Thin", "Sofia-Pro-Bold", "Karla", "Karla-Bold",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

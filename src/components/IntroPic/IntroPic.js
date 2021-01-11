@@ -1,5 +1,5 @@
 import './IntroPic.css';
-import { ReactComponent as PortfolioPic } from '../../Portfolio-pic.svg';
+import { ReactComponent as PortfolioPic } from '../../assets/Portfolio-pic.svg';
 
 function IntroPic() {
   return (

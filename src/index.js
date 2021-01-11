@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/Recoleta-SemiBold.ttf';
+import './fonts/Recoleta-Thin.ttf';
+import './fonts/Sofia-Pro-Bold.ttf';
+import './fonts/Karla-VariableFont_wght.ttf';
+import './fonts/Karla-Bold.ttf'; 
 
 ReactDOM.render(
   <React.StrictMode>
